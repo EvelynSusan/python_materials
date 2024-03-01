@@ -31,7 +31,7 @@ while choice!=False:
     elif ino==4:
         if stock['Eraser'] >qty:
             stock['Eraser']=stock['Eraser']-qty
-            bill['Eras1er']=qty*price['Eraser']
+            bill['Eraser']=qty*price['Eraser']
         else:
             print("Not Available")
     else:
